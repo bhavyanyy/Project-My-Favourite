@@ -1,0 +1,115 @@
+body {
+    text-align: center;
+    margin: 0;
+    padding-top: 800px;
+    background: linear-gradient(#ff0363, #0af2b4, #f2ee0a);
+}
+
+.profile {
+    width: 300px;
+    height: 200px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+
+}
+
+#welcome {
+    position: absolute;
+    height: 800px;
+    width: 100%;
+    color: white;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 9;
+    display: table;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: fantasy;
+    font-weight: 300;
+}
+
+#name {
+    font-size: 30px;
+    font-family: cursive;
+
+}
+
+h2 {
+    font-size: 30px;
+    font-family: monospace;
+    font-weight: 300;
+}
+
+.inner {
+    display: table-cell;
+    position: relative;
+    vertical-align: middle;
+}
+
+#about {
+    padding: 50px;
+    font-size: 40px;
+    font-family: 'Itim', cursive;
+    background-color: bisque;
+}
+
+.line {
+    height: 6px;
+    background-color: pink;
+    width: 70px;
+    margin: 8px auto;
+}
+
+p {
+    max-width: 450px;
+    margin: 25px auto;
+    font-size: 17px;
+}
+
+.menu {
+    list-style: none;
+    font-family: sans-serif;
+    position: fixed;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.links {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-family: cinzel decorative;
+    font-size: 20px;
+    float: left;
+}
+
+.links:hover {
+    background-color: cornsilk;
+}
+
+html {
+    scroll-behavior: smooth;
+
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.article:hover {
+    color: fuchsia;
+}
+#favourite a{
+   font-size: 20px;   
+}
+#work a{
+   font-size: 20px;   
+}
